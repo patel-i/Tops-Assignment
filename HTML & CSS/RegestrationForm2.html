@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Individual Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f2f2;
+        }
+
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            background-color: #b3d9d9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            color: red;
+            background: linear-gradient(to right, lightblue, white, lightblue);
+            padding: 10px;
+        }
+
+        fieldset {
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            color: red;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        input, select {
+            padding: 5px;
+            width: 180px;
+        }
+
+        .full {
+            width: 95%;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 8px 20px;
+            margin: 5px;
+            background-color: #4d94ff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0066cc;
+        }
+
+        .declaration {
+            font-size: 13px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Individual Registration</h2>
+
+    <form>
+        <fieldset>
+            <legend>User Particulars</legend>
+            <table>
+                <tr>
+                    <td>* Login ID</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>* Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>* Confirm Password</td>
+                    <td><input type="password"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Particulars</legend>
+            <table>
+                <tr>
+                    <td>* Salutation</td>
+                    <td>
+                        <select>
+                            <option>Select</option>
+                            <option>Mr.</option>
+                            <option>Ms.</option>
+                        </select>
+                    </td>
+                    <td>* First Name</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>Middle Name</td>
+                    <td><input type="text"></td>
+                    <td>* Last Name</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>* Resident Status</td>
+                    <td>
+                        <select>
+                            <option>Select</option>
+                        </select>
+                    </td>
+                    <td>* Country</td>
+                    <td>
+                        <select>
+                            <option>Select</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>* Email-ID</td>
+                    <td><input type="email"></td>
+                    <td>* Mobile Number</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Account Particulars</legend>
+            <table>
+                <tr>
+                    <td>* 15 Digit Account No</td>
+                    <td><input type="text"></td>
+                    <td>* Nick Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>* Fund Transfer</td>
+                    <td>
+                        <select>
+                            <option>Select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <!-- Declaration -->
+        <fieldset>
+            <legend>DECLARATION</legend>
+            <p class="declaration">
+                I have read, understood and hereby agree to the Terms and Conditions in respect of all products and channels.
+                I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request.
+                I confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s).
+                I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.
+            </p>
+        </fieldset>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
