@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Pseudo Class</title>
+    <style>
+        /* Normal button */
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+        }
+
+        /* Hover effect */
+        button:hover {
+            background-color: orange;
+        }
+
+        /* Active (when clicked) */
+        button:active {
+            background-color: red;
+        }
+
+        /* Input focus */
+        input:focus {
+            border: 2px solid green;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Dynamic Pseudo Classes Example</h2>
+
+    <button>Click Me</button><br><br>
+
+    <input type="text" placeholder="Click here to focus">
+
+</body>
+</html>
